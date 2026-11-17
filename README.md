@@ -4,7 +4,7 @@
 
 Ce projet consiste à reconstruire une scène 3D à partir d'une courte séquence vidéo avec la méthode **3D Gaussian Splatting**.
 
-Une vidéo filmée autour d'un bureau est utilisée pour extraire des images, estimer les poses des caméras, entraîner un modèle de gaussiennes 3D et évaluer la qualité des rendus. Le projet explore le comportement de la méthode sur une séquence à très faible variation de point de vue, proche du mode vidéo de la mission CO3D (CNES / Airbus).
+Une vidéo filmée autour d'un bureau est utilisée pour extraire des images, estimer les poses des caméras, entraîner un modèle de gaussiennes 3D et évaluer la qualité des rendus. Le projet explore le comportement de la méthode sur une séquence vidéo à très faible variation de point de vue.
 
 ## Pipeline
 
@@ -30,7 +30,7 @@ Une vidéo filmée autour d'un bureau est utilisée pour extraire des images, es
 ### Visualisations
 
 **Captures des résultats :**
-![Vérité terrain vs rendu 3DGS](results/comparaison.png)
+![Vérité terrain vs rendu 3DGS](r%C3%A9sultats/comparaison.png)
 
 **Vidéo de reconstruction :** 
 
